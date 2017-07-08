@@ -31,13 +31,36 @@ img {
      height: 100vh;
 }
 
+/*
 .message {
     text-align: center;
     margin: 60px auto 60px auto;
 } 
-
+*/
 .card-subtitle {
     margin-bottom: 1rem;
+}
+
+.section-content {
+    padding: 5rem 0;
+}
+
+#about {
+    background: url("../img/girlincar.jpg") center center no-repeat;
+    background-size: cover;
+}
+
+.about-text {
+    background: rgba(0,0,0,0.8);
+    color: white;
+    padding: 1.875rem;
+}
+
+#footer-main {
+    background: #222;
+    color: #aaa;
+    font-size: 1rem;
+    padding: 2.5rem 0;
 }
 
 
