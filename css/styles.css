@@ -1,0 +1,43 @@
+/* styles.css */
+
+html,
+body {
+    height: 100%;
+}
+
+img {
+ //   max-width: 100%;
+}
+
+/* cover */
+#cover {
+    background: #222 url("../img/stars.jpg") no-repeat center center;
+    background-size: cover;
+    color: white;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+
+#cover-caption {
+    width: 100%;
+}
+
+
+.carousel-inner img {
+     width: 100%;
+     height: 100vh;
+}
+
+.message {
+    text-align: center;
+    margin: 60px auto 60px auto;
+} 
+
+.card-subtitle {
+    margin-bottom: 1rem;
+}
+
+
